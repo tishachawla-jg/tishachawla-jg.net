@@ -1,0 +1,42 @@
+
+body{
+    background-color:#F0F0F0;
+    font-family: 'Poppins', sans-serif;
+}
+.one
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 2%;
+}
+.card{
+    width: 17rem;
+}
+.card:hover{
+    transform: scale(1.05);
+}
+#navbarSupportedContent a:hover
+{
+    color: blue;
+}
+@media (max-width: 1380px)
+{
+.one
+{   align-items: center;
+   
+    display: flex;
+    flex-direction: column;
+   
+    padding: 2%;
+}
+.col1
+{
+    font-size: larger;
+}
+.card
+{
+    width: 22rem;
+}
+
+}
